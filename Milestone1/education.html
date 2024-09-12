@@ -1,0 +1,138 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .navigation{
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+    padding: 30px;
+}
+.navigation li{
+    display: inline-block;
+    width: 170px;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgb(90, 18, 90);
+    list-style: none;
+    border-radius: 20px;
+    border: 2px solid rgb(48, 9, 48);
+}
+.navigation li a{
+    text-decoration: none;
+    font-size: 20;
+    color: white;
+}
+.navigation li a:hover{
+    color: rgb(114, 111, 111);
+}
+.navigation li:hover{
+    box-shadow: 2px 2px 100px plum;
+    transition: 1s ease-in-out;
+    animation: border 2s infinite steps(10, end);
+}
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid rgb(116, 37, 116);
+    margin: 5px;
+    width: 80%;
+    height: 90vh;
+    border-radius: 35px;
+    box-shadow: 2px 2px 115px rgb(116, 37, 116);
+    padding: 10px;
+}
+.education{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 2px;
+    margin: 10px;
+}
+.education h3{
+    padding: 2px;
+    color: rgb(116, 37, 116);
+    margin: 5px;
+}
+.education h4{
+    color: white;
+    margin: 7px;
+}
+.container p{
+    color: white;
+    width: 100%;
+    text-align: center;
+    margin: 5px;
+    padding: 20px;
+    justify-content: center;
+}
+@media (max-width: 880px) {
+    .navigation{
+        display: flex;
+        margin-top: 20rem;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navigation li{
+        display: flex;
+        flex-direction: column;
+    }
+    .container{
+        width: auto;
+        height: auto;
+    }
+
+}
+    </style>
+</head>
+<body>
+    <div class="navigation">
+        <ul class="nav">
+            <li><a href="index.html">Personal info</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="experience.html">Experience</a></li>
+            <li><a href="skills.html">Skills</a></li>
+        </ul>
+    </div>
+    <div class="container">
+
+        <div class="education">
+            <h3>Institution:</h3>
+            <h4>Hayat School And College Hyderabad</h4>
+        </div>
+        <div class="education">
+            <h3>Field Of Study:</h3>
+            <h4>Computer Science</h4>
+        </div>
+        <div class="education">
+            <h3>Year:</h3>
+            <h4>First year (college)</h4>
+        </div>
+        <div class="education">
+            <h3>Location:</h3>
+            <h4>Hyderabad Sindh Pakistan</h4>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio quod illum molestias, cupiditate nam aliquid? Ipsam soluta reiciendis voluptates saepe sapiente dicta fugit cum id doloremque possimus provident dolores delectus tempora, aut repudiandae earum nobis cupiditate unde minus placeat! Quam pariatur architecto est nostrum iusto veritatis nesciunt modi molestiae quis inventore commodi ab iste rem, repudiandae tempora dolor soluta itaque dignissimos? Dolorem cumque minus repellat excepturi ipsam necessitatibus officia beatae.</p>
+    </div>
+</body>
+</html>
